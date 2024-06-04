@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 368px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* deixa o elemento no fundo */
+  z-index: -1;
+  background: #121214;
+}
+
+body {
+  --font-family-principal: "Archivo", sans-serif;
+  --font-family-secondary: "Poppins", sans-serif;
+  --color-background: #e5e5e5;
+
+  font-family: var(--font-family-secondary);
+  background: var(--color-background);
+
+  .page {
+    width: 736px;
+    margin: auto;
+
+    header {
+      margin-top: 74px;
+      width: 319px;
+
+      h1 {
+        font-family: var(--font-family-principal);
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        color: white;
+        margin-bottom: 24px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 26px;
+        color: #42d3ff;
+      }
+    }
+
+    form {
+      margin-top: 38px;
+      background: #fafafc;
+      min-height: 500px;
+      border-radius: 8px;
+      padding: 64px;
+
+      fieldset {
+        border: none;
+
+        .fieldset-wrapper {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+        }
+
+        legend {
+          font-family: var(--font-family-principal);
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 34px;
+          width: 100%;
+          border-bottom: 1px solid #e6e6f0;
+          padding-bottom: 16px;
+        }
+
+        .input-wrapper {
+          display: flex;
+          flex-direction: column;
+
+          label {
+            font-size: 14px;
+            line-height: 24px;
+            color: #4e4958;
+            margin-bottom: 8px;
+
+            span {
+              margin-left: 12px;
+              font-size: 12px;
+              line-height: 20px;
+              color: #888590;
+            }
+          }
+
+          input,
+          textarea {
+            background: #fafafc;
+            border: 1px solid #e6e6f0;
+            box-sizing: border-box;
+            border-radius: 8px;
+            height: 56px;
+            padding: 0 24px;
+            font-family: var(--font-family-secondary);
+            font-size: 16px;
+            line-height: 26px;
+            color: #888590;
+          }
+
+          textarea {
+            padding: 0;
+            height: 168px;
+          }
+        }
+      }
+    }
+  }
+}
