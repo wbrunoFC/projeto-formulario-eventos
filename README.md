@@ -8,4 +8,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - Git e Github
-- Figma - _[Clique aqui](<https://www.figma.com/design/5rMC6zJ5Z8u6gafsqcvkrA/Explorer---Projeto-02-(Copy)?node-id=1-8&m=dev>)_
+- Figma - _[Clique aqui](https://www.figma.com/design/k5qbtcuCnuLVR3GdAGTCaG/Explorer-Stage-03-Projeto-01-(Copy)?node-id=1-28&t=kkF9PtDGan8VScWn-0)_
